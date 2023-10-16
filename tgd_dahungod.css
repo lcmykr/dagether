@@ -429,9 +429,7 @@ element.style {
     /*** padding: 9px 15.7px; ***/
     /* 카테고리 선택자 사이 여백 조정 */
 }
-#article-list > .article-list-row:hover {
-    cursor: pointer;
-}
+
 #article-list > .article-list-row :after {
     bottom: 0;
 }
@@ -447,7 +445,7 @@ element.style {
     transition: 0.3s;
 }
 
-#article-list > .article-list-row:hover::after {
+#article-list > .article-list-row:has(a:hover)::after {
     transform: scaleX(1);
 }
 

@@ -1,9 +1,6 @@
-/* 적용용 CSS
-@import url("https://explainpark101.github.io/Yangether/Yangether_winter.css");
 @font-face { font-family: 'Dovemayo-Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
-*/
-/* made by 박설명(explain_park) */
-/*내용 */
+/* made by lcmykr, 박설명(explain_park) */
+/*내용*/
 @font-face {
     font-family: 'Dovemayo-Bold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/Dovemayo-Bold.woff') format('woff');
@@ -120,9 +117,9 @@ body {
 body {
     background: transparent;
     height: auto;
-    background-image: url('https://cdn.discordapp.com/attachments/569194281219129364/1163519662672318585/snow01.png'), 
+    background-image: url('https://cdn.discordapp.com/attachments/569194281219129364/1163520598966796378/snow01.png'), 
         url('https://cdn.discordapp.com/attachments/569194281219129364/1163519663146279032/snow02.png'), 
-        url('https://cdn.discordapp.com/attachments/569194281219129364/1163519662919790692/snow03.png');
+        url('https://cdn.discordapp.com/attachments/569194281219129364/1163520599335899257/snow03.png');
     -webkit-animation: snow 10s linear infinite;
     -moz-animation: snow 10s linear infinite;
     -ms-animation: snow 10s linear infinite;
